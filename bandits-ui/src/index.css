@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #d4edda; /* Light green background for the entire page */
+  color: #000000; /* Default text color for readability */
+}
+
+body {
+  margin: 0;
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #004d00; /* Dark green background for the entire page */
+  color: #ffffff; /* Default text color for better contrast on dark green */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: calc(100vh - 64px); /* Full height minus AppBar height */
+  text-align: center; /* Center text inside container */
+}
+
+.home-content {
+  max-width: 600px; /* Optional: limit width for better readability */
+  width: 100%;
+  margin-top: 0%; /* Adjust this percentage to move the content down */
+  background-color: #e0f7fa; /* White background for the content area */
+  padding: 2rem; /* Add padding inside the content area */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.app-bar {
+  display: flex;
+  justify-content: center; /* Center the Toolbar horizontally */
+  width: 100%;
+  background-color: #0033cc; /* Blue background for the AppBar */
+  color: #ffffff; /* Text color for contrast against the blue background */
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center all items horizontally */
+  width: 100%;
+  max-width: 1200px; /* Adjust based on your design */
+}
+
+.title {
+  flex-grow: 1; /* Push the title to the center */
+  text-align: center; /* Center the text */
+  font-weight: bold; /* Make the text bold */
+  font-size: 2rem; /* Enlarge the font size */
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem; /* Space between buttons */
+}
+
+main {
+  margin-top: 64px; /* Adjust based on the height of your AppBar */
+}
